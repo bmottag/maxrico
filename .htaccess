@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond $1 !^(index.php|validaciones|bootstrap|public|robots.txt)
+RewriteRule ^(.*)$ /maxrico/index.php?/$1 [L]
